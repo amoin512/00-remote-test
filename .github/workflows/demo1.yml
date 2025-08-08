@@ -1,0 +1,10 @@
+name: Test Workflow-0
+
+on: push
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print
+        run: echo "Test message"
